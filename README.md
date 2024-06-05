@@ -15,7 +15,7 @@
 - [The Challenge](#the-challenge)
   - [Project Structure](#project-structure)
   - [Base Requirements](#base-requirements)
-  - [Key Features](#key-geatures)
+  - [Key Features](#key-features)
   - [Required Component Content](#required-component-content)
   - [Updated Social Media Presence](#updated-social-media-presence)
     - [LinkedIn](#linkedin)
@@ -33,11 +33,11 @@
 
 ## The Challenge
 
-- the challenge is to present different ways of creating a shipping interface for Pitney Bowes. Consider how to get the information needed to choose a carrier service, shipping cost, and print a label: package dimensions, weight, origin, destination, and details such as when it needs to arrive and any special services. Explore at least 3 options, weighing the pros and cons of each and build a working proof of concept of at least one.
+- The challenge is to present different ways of creating a shipping interface for Pitney Bowes. Consider how to get the information needed to choose a carrier service, shipping cost, and print a label: package dimensions, weight, origin, destination, and details such as when it needs to arrive and any special services. Explore at least 3 options, weighing the pros and cons of each and build a working proof of concept of at least one.
 
 ### Project Structure
 
-shipping-website/
+EasyShip/
 │
 ├── src/
 │   ├── components/          # React components
@@ -79,3 +79,45 @@ shipping-website/
       - [ ] Link to the deployed version
       - [ ] Link to the GitHub repository
       - [ ] GIF or screenshot of the deployed application
+
+### Key Features
+
+  1. [ ] **User Registration and Authentication:** Secure user registration, login, and account management.
+  2. [ ] **Order Management:** Place, track, and manage shipping orders with real-time updates.
+  3. [ ] **Payment Processing:** Secure payment gateway integration for processing payments.
+  4. [ ] **Shipment Tracking:** Real-time shipment tracking with status updates and notifications.
+  5. [ ] **Admin Dashboard:** Comprehensive dashboard for administrators to manage orders, users, and deliveries.
+  6. [ ] **Customer Support:** In-app chat and support ticket system for customer inquiries and issues.
+  7. [ ] **Analytics and Reporting:** Detailed reports and analytics for business insights and decision-making.
+
+## Screenshot
+
+
+
+## Links
+
+- [Deployed Application](https://EasyShip.netlify.app/)
+- [GitHub Repo](https://github.com/andrewyu22/EasyShip)
+
+## Installation
+
+- To run this project locally, follow these steps:
+
+1. [ ] Clone the Repository:
+   `git clone https://github.com/yourusername/EasyShip.git`
+`cd EasyShip`
+
+3. [ ] Install Dependencies:
+   `npm install`
+   
+5. [ ] Set Up Environment Variables:
+ - Create a `.env` file in the root directory and add the necessary environment variables. Example:
+   
+   REACT_APP_API_URL=https://api.easyship.com
+REACT_APP_GOOGLE_MAPS_API_KEY=your-api-key
+
+4. [ ] Run the Application:
+ `npm start`
+
+6. [ ] Build for Production:
+   `npm run build`
