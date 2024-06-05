@@ -16,7 +16,6 @@
   - [Project Structure](#project-structure)
   - [Base Requirements](#base-requirements)
   - [Key Features](#key-features)
-  - [Required Component Content](#required-component-content)
 - [Screenshot](#screenshot)
 - [Links](#links)
 - [Installation](#installation)
@@ -81,13 +80,19 @@ EasyShip/
 
 ### Key Features
 
-  1. [ ] **User Registration and Authentication:** Secure user registration, login, and account management.
-  2. [ ] **Order Management:** Place, track, and manage shipping orders with real-time updates.
-  3. [ ] **Payment Processing:** Secure payment gateway integration for processing payments.
-  4. [ ] **Shipment Tracking:** Real-time shipment tracking with status updates and notifications.
+  1. [ ] **User Registration and Authentication:**  Secure user registration, login, and account management.
+     
+  2. [ ] **Order Management:**  Place, track, and manage shipping orders with real-time updates.
+     
+  3. [ ] **Payment Processing:**  Secure payment gateway integration for processing payments.
+     
+  4. [ ] **Shipment Tracking:**  Real-time shipment tracking with status updates and notifications.
+     
   5. [ ] **Admin Dashboard:** Comprehensive dashboard for administrators to manage orders, users, and deliveries.
-  6. [ ] **Customer Support:** In-app chat and support ticket system for customer inquiries and issues.
-  7. [ ] **Analytics and Reporting:** Detailed reports and analytics for business insights and decision-making.
+      
+  6. [ ] **Customer Support:**  In-app chat and support ticket system for customer inquiries and issues.
+      
+  7. [ ] **Analytics and Reporting:**  Detailed reports and analytics for business insights and decision-making.
 
 ## Screenshot
 
@@ -102,32 +107,32 @@ EasyShip/
 
 - To run this project locally, follow these steps:
 
-1. [ ] Clone the Repository:
+1. [ ] **Clone the Repository:**
    `git clone https://github.com/yourusername/EasyShip.git`
 `cd EasyShip`
 
-3. [ ] Install Dependencies:
+3. [ ] **Install Dependencies:**
    `npm install`
    
-5. [ ] Set Up Environment Variables:
+5. [ ] **Set Up Environment Variables:**
  - Create a `.env` file in the root directory and add the necessary environment variables. Example:
    
    REACT_APP_API_URL=https://api.easyship.com
 
    REACT_APP_GOOGLE_MAPS_API_KEY=your-api-key
 
-4. [ ] Run the Application:
+4. [ ] **Run the Application:**
  `npm start`
 
-6. [ ] Build for Production:
+6. [ ] **Build for Production:**
    `npm run build`
 
 ## Usage
 
-- Development Server:
+- **Development Server:**
 After running `npm start`, the application will be available at `http://localhost:3000`.
 
-- Production Build:
+- **Production Build:**
 The production-ready build files will be in the `build/` directory after running `npm run build`.
 
 ## API Documentation
