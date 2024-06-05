@@ -20,7 +20,7 @@
 - [Links](#links)
 - [Installation](#installation)
 - [Usage](#usage)
-- [API Documentation] (#api-documentation)
+- [API Documentation](#api-documentation)
 - [Contributing](#contributing)
 - [Licence](#licence)
 - [Authors](#authors)
@@ -137,7 +137,7 @@ The production-ready build files will be in the `build/` directory after running
 
 ## API Documentation
 
-- API documentation is available to provide detailed information on endpoints, request/response formats, and usage examples. Refer to the docs/api.md file for comprehensive API documentation.
+- API documentation is available to provide detailed information on endpoints, request/response formats, and usage examples. Refer to the [docs website] (https://docs.shipping360.pitneybowes.com/docs/) for comprehensive API documentation.
 
 ## Contributing
 
