@@ -2,12 +2,12 @@
   <br>
   <a href="https://github.com/andrewyu22">
       <img src="https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg?style=for-thebadge" alt=""></a>
-  <a href="https://github.com/andrewyu22/EasyShip/graphs/contributors">
-      <img src="https://img.shields.io/github/contributors/andrewyu22/EasyShip.svg?style=for-the-badge" alt=""></a>
-  <a href="https://github.com/andrewyu22/EasyShip/issues">
-      <img src="https://img.shields.io/github/issues/andrewyu22/EasyShip.svg?style=for-the-badge" alt=""></a>
+  <a href="https://github.com/andrewyu22/easyship/graphs/contributors">
+      <img src="https://img.shields.io/github/contributors/andrewyu22/easyship.svg?style=for-the-badge" alt=""></a>
+  <a href="https://github.com/andrewyu22/easyship/issues">
+      <img src="https://img.shields.io/github/issues/andrewyu22/easyship.svg?style=for-the-badge" alt=""></a>
   <a href="https://github.com/andrewyu22/EasyShip/network/members">
-      <img src="https://img.shields.io/github/forks/andrewyu22/EasyShip.svg?style=for-the-badge" alt=""></a>
+      <img src="https://img.shields.io/github/forks/andrewyu22/easyship.svg?style=for-the-badge" alt=""></a>
 
   ## Table of contents
 
@@ -17,15 +17,14 @@
   - [Base Requirements](#base-requirements)
   - [Key Features](#key-features)
   - [Required Component Content](#required-component-content)
-  - [Updated Social Media Presence](#updated-social-media-presence)
-    - [LinkedIn](#linkedin)
-    - [GitHub](#github)
-- [Technical Acceptance Criteria](#acceptance-criteria)
 - [Screenshot](#screenshot)
 - [Links](#links)
 - [Installation](#installation)
+- [Usage](#usage)
+- [API Documentation] (#api-documentation)
+- [Contributing](#contributing)
 - [Licence](#licence)
-- [Author](#author)
+- [Authors](#authors)
 
 ## Overview
 
@@ -114,10 +113,53 @@ EasyShip/
  - Create a `.env` file in the root directory and add the necessary environment variables. Example:
    
    REACT_APP_API_URL=https://api.easyship.com
-REACT_APP_GOOGLE_MAPS_API_KEY=your-api-key
+
+   REACT_APP_GOOGLE_MAPS_API_KEY=your-api-key
 
 4. [ ] Run the Application:
  `npm start`
 
 6. [ ] Build for Production:
    `npm run build`
+
+## Usage
+
+- Development Server:
+After running `npm start`, the application will be available at `http://localhost:3000`.
+
+- Production Build:
+The production-ready build files will be in the `build/` directory after running `npm run build`.
+
+## API Documentation
+
+- API documentation is available to provide detailed information on endpoints, request/response formats, and usage examples. Refer to the docs/api.md file for comprehensive API documentation.
+
+## Contributing
+
+- We welcome contributions to improve this project. Please follow these steps:
+
+1. [ ] Fork the repository.
+2. [ ] Create a new branch with a descriptive name (feature/add-new-feature).
+3. [ ] Make your changes and commit them with descriptive messages.
+4. [ ] Push your changes to your forked repository.
+5. [ ] Create a Pull Request to the main branch of the original repository.
+6. [ ] Please ensure your code adheres to our coding standards and includes relevant tests.
+
+## Licence
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Authors
+
+- GitHub - [ ](https://github.com/)
+- For any questions, suggestions, or issues, please contact our team at
+  
+> [EasyShip.com](#) &nbsp;&middot;&nbsp;
+> Email [easyship@gmail.com](#) &nbsp;&middot;&nbsp;
+
+**Thank you for using and contributing to the EasyShip website! Your support helps us continually improve and deliver the best shipping management experience.**
+
+
+
+
+
