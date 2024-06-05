@@ -13,7 +13,6 @@
 
 - [Overview](#overview)
 - [The Challenge](#the-challenge)
-  - [Project Structure](#project-structure)
   - [Base Requirements](#base-requirements)
   - [Key Features](#key-features)
 - [Screenshot](#screenshot)
@@ -33,32 +32,6 @@
 
 - The challenge is to present different ways of creating a shipping interface for Pitney Bowes. Consider how to get the information needed to choose a carrier service, shipping cost, and print a label: package dimensions, weight, origin, destination, and details such as when it needs to arrive and any special services. Explore at least 3 options, weighing the pros and cons of each and build a working proof of concept of at least one.
 
-### Project Structure
-
-EasyShip/
-│
-├── src/
-│   ├── components/          # React components
-│   ├── pages/               # Application pages
-│   ├── services/            # API service calls
-│   ├── styles/              # CSS and style files
-│   ├── utils/               # Utility functions
-│   └── App.js               # Main application component
-│
-├── public/
-│   ├── index.html           # Main HTML file
-│   └── assets/              # Images, icons, and other static assets
-│
-├── tests/
-│   ├── unit/                # Unit tests
-│   └── integration/         # Integration tests
-│
-├── .gitignore               # Git ignore file
-├── README.md                # Project README file
-├── package.json             # NPM package configuration
-├── package-lock.json        # NPM package lock file
-└── webpack.config.js        # Webpack configuration file
-    
 ### Base Requirements
 
 - Technologies that are used:
