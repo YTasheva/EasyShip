@@ -11,6 +11,14 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 
 from pathlib import Path
+import os
+# Load Variables like password/username
+from dotenv import load_dotenv
+load_dotenv()
+# Used to check if database exists, if not create it
+import pymysql
+import subprocess
+from django.db.utils import OperationalError
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -20,9 +28,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-hah5*=r5wxiv(4m#vk2pba3sq1#a$d^()sj2*%ey-9n-8y4jnz'
+SECRET_KEY = os.getenv('SECRET_KEY')
 
-# SECURITY WARNING: don't run with debug turned on in production!
+# SECURITY WARNING: don't run with debug turnsed on in production!
 DEBUG = True
 
 ALLOWED_HOSTS = []
@@ -72,11 +80,32 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
+try:
+    pymysql.connect(
+        host=os.getenv('DATABASE_HOST','localhost'),
+        user=os.getenv('DATABASE_USER'),
+        password=os.getenv('DATABASE_PASSWORD'),
+        database=os.getenv('DATABASE_NAME')
+    )
+except pymysql.err.OperationalError as e:
+    # If database doesn't exist, create it
+    if e.args[0] == 1049:
+        try:
+            subprocess.run(['mysql', '-u', os.getenv('DATABASE_USER'), f'-p{os.getenv("DATABASE_PASSWORD")}', '-e', f'CREATE DATABASE IF NOT EXISTS {os.getenv("DATABASE_NAME")}'])
+        except Exception as create_db_error:
+            print(f"Error creating database: {create_db_error}")
+    else:
+        print(f"Error connecting to database: {e}")
+
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': os.getenv('DATABASE_NAME'),
+        'USER': os.getenv('DATABASE_USER'),
+        'PASSWORD': os.getenv('DATABASE_PASSWORD'),
+        'HOST': os.getenv('DATABASE_HOST','localhost'),
+        'PORT': os.getenv('3306'),
     }
 }
 
