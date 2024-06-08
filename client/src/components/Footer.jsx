@@ -28,7 +28,7 @@ export default function Footer() {
                 <nav>
                     <h6 className="footer-title">Easyship in the News</h6>
                     <p className="text-yellow mb-5">--------</p>
-                    <p className="text-md text-gray-300 flex items-center"> <ChevronRightIcon className="h-4 w-4 mr-2 -mt-4 text-yellow"/> Easyship and Pitney Bowes Partner to Provide Ecommerce Sellers with a Better Way to Ship <br/> 5 Minutes Ago</p>
+                    <p className="text-md text-gray-300 flex items-center"> <ChevronRightIcon className="h-4 w-4 mr-2 -mt-4 text-yellow"/> EasyShip and Pitney Bowes Partner to Provide Ecommerce Sellers with a Better Way to Ship <br/> 5 Minutes Ago</p>
                     <p className="text-md text-gray-300 flex items-center"> <ChevronRightIcon className="h-4 w-4 mr-2 -mt-4 text-yellow"/> Time is ripe for APIs in logistics supply chain <br/> 5 Minutes Ago</p>
                 </nav>
                 <nav>
