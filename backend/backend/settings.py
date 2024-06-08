@@ -150,3 +150,10 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+# Azure AI
+
+AZURE_FORM_RECOGNIZER_ENDPOINT = os.getenv('AZURE_ENDPOINT')
+AZURE_FORM_RECOGNIZER_KEY = os.getenv('AZURE_KEY')
+AZURE_FORM_RECOGNIZER_MODEL_ID = os.getenv('AZURE_MODEL')
