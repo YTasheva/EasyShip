@@ -21,7 +21,7 @@ export default function News() {
         <h2 className="card-title font-medium">TECH UPDATE</h2>
         <h2 className="card-title text-sm font-medium">Admin <ChatBubbleLeftRightIcon className="h-6 w-6 text-[#00C0E4] group-hover:text-white"/> 35 </h2>
         <p className="text-lg text-gray-500 group-hover:text-white">
-        Hong Kong and New York-based Easyship joins Shopify Plus’ tech partner program..
+        Hong Kong and New York-based EasyShip joins Shopify Plus’ tech partner program..
         </p>
         <div className='absolute top-0 left-0 flex flex-col bg-black text-white h-14 w-12 text-center group-hover:bg-[#00C0E4] group-hover:text-white'>
             <p>7</p>
@@ -38,7 +38,8 @@ export default function News() {
         <h2 className="card-title font-medium">LOGISTICS UPDATE</h2>
         <h2 className="card-title text-sm font-medium">Admin <ChatBubbleLeftRightIcon className="h-6 w-6 text-[#00C0E4] group-hover:text-white"/> 20 </h2>
         <p className="text-lg text-gray-500 group-hover:text-white">
-        Easyship and SEKO Logistics forge e-commerce partnership and now provides merchants US domestic returns, and branded email and tracking, regardless of the final mile postal carrier...
+        EasyShip and SEKO Logistics forge e-commerce partnership and now provides merchants US domestic returns,
+        and branded email and tracking, regardless of the final mile postal carrier...
         </p>
         <div className='absolute top-0 left-0 flex flex-col bg-black text-white h-14 w-12 text-center group-hover:bg-[#00C0E4] group-hover:text-white'>
             <p>1</p>
@@ -59,7 +60,7 @@ export default function News() {
     <h2 className="card-title font-medium">POST & PARCEL</h2>
     <h2 className="card-title text-sm font-medium">Admin <ChatBubbleLeftRightIcon className="h-6 w-6 text-[#00C0E4] group-hover:text-white"/> 40 </h2>
     <p className="text-lg text-gray-500 group-hover:text-white">
-    DHL Metro enters strategic partnership with Easyship to provide enhanced, affordable shipping solutions to SMB’s...
+    DHL Metro enters strategic partnership with EasyShip to provide enhanced, affordable shipping solutions to SMB’s...
     </p>
     <div className='absolute top-0 left-0 flex flex-col bg-black text-white h-14 w-12 text-center group-hover:bg-[#00C0E4] group-hover:text-white'>
         <p>28</p>
@@ -76,7 +77,8 @@ export default function News() {
     <h2 className="card-title font-medium">SUPPLY CHAIN DIVE</h2>
     <h2 className="card-title text-sm font-medium">Admin <ChatBubbleLeftRightIcon className="h-6 w-6 text-[#00C0E4] group-hover:text-white"/> 15 </h2>
     <p className="text-lg text-gray-500 group-hover:text-white">
-    Easyship, a Stripe for global e-commerce shipping, raises $4M. Its service adds shipment options to e-commerce pages to make it simple for retailers to offer overseas shipping, and customers to receive product in any market...
+    EasyShip, a Stripe for global e-commerce shipping, raises $4M. Its service adds shipment options to e-commerce pages to make it simple
+    for retailers to offer overseas shipping, and customers to receive product in any market...
     </p>
     <div className='absolute top-0 left-0 flex flex-col bg-black text-white h-14 w-12 text-center group-hover:bg-[#00C0E4] group-hover:text-white'>
         <p>21</p>
