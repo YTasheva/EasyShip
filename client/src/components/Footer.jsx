@@ -2,7 +2,7 @@ import React from 'react'
 import {PhoneIcon} from '@heroicons/react/24/solid'
 import {MapPinIcon} from '@heroicons/react/24/solid'
 import {ChevronRightIcon} from '@heroicons/react/24/solid'
-import ServiceImage from './Serviceimg'
+import Serviceimg from './Serviceimg'
 
 export default function Footer() {
     return (
@@ -44,7 +44,7 @@ export default function Footer() {
                 <nav>
                     <h6 className="footer-title">Customer Service</h6>
                     <p className="text-yellow mb-5">--------</p>
-                    <div className="w-80"><ServiceImage/></div>
+                    <div className="w-80"><Serviceimg/></div>
                 </nav>
             </footer>
             <footer className="footer px-10 py-4 border-t bg-[#5D6C83] text-white border-base-300">
