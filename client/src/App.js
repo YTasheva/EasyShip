@@ -1,26 +1,29 @@
+import React from 'react';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from 'react-router-dom';
+import Home from './pages/home';
 import Navbar from './components/Navbar';
-import Slide from './components/Slide';
-import Welcome from './components/Welcome';
-import Service from './components/Service';
-import Statistics from './components/Statistics';
-import Testimonials from './components/Testimonials';
-import Clients from './components/Clients';
-import News from './components/News';
 import Footer from './components/Footer';
+import Upload from './pages/UploadDoc';
 
 function App() {
   return (
-   <>
-   <Navbar/>
-   <Slide/>
-   <Welcome/>
-   <Service/>
-   <Statistics/>
-   <Testimonials/>
-   <Clients/>
-   <News/>
-   <Footer/>
-   </>
+    <Router>
+      <div className="App">
+        <header>
+          <Navbar />
+        </header>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/upload" element={<Upload />} />
+          <Route path="*" element={<h1>WRONG PAGE!</h1>} />
+        </Routes>
+      </div>
+      <Footer />
+    </Router>
   );
 }
 

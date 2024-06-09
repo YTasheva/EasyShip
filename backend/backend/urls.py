@@ -19,5 +19,5 @@ from .views import analyze_document_view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('analyze-document/', analyze_document_view, name='analyze_document'),
+    path('api/analyze-document/', analyze_document_view, name='analyze_document'),
 ]
