@@ -1,5 +1,5 @@
 import React from 'react'
-import WhyChooseUs from './WhyChooseUs'
+import ChooseUs from './ChooseUs'
 
 export default function Testimonials() {
     return (
