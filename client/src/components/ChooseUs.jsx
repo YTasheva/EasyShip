@@ -4,8 +4,7 @@ export default function ChooseUs() {
     return (
         <>
             <h1 className="text-xl font-bold mb-2">CHOOSE US</h1>
-            <h1 className="text-xl text-gray-500 font-semibold mb-10">Access Our Network of Global Warehouses
-</h1>
+            <h1 className="text-xl text-gray-500 font-semibold mb-10">Access Our Network of Global Warehouses</h1>
             <div className="join join-vertical w-full">
                 <div className="collapse collapse-plus join-item border border-base-300">
                     <input type="radio" name="my-accordion-4" defaultChecked />
