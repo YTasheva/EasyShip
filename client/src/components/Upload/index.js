@@ -38,21 +38,28 @@ const Upload = () => {
   };
 
   return (
-    <div className="App">
-      <h2>Analyze Document</h2>
-      <form onSubmit={handleSubmit}>
-        <input type="file" onChange={handleFileChange} required />
-        <button type="submit">Analyze</button>
-      </form>
-      {error && <div style={{ color: 'red' }}>{error}</div>}
-      {analysisResult && (
-        <div>
-          <h3>Analysis Result</h3>
-          <pre>{JSON.stringify(analysisResult, null, 2)}</pre>
+      <div className="App bg-[#5D6C83] mt-20 p-8">
+        <div className="relative flex justify-center items-center space-x-96 px-10 mb-10">
+          <div className="absolute top-0 left-10 mr-10">
+            <h1 className="text-3xl font-semibold text-left text-gray-100 mb-5">Analyze Document</h1>
+            <h1 className="text-sm font-semibold text-left text-gray-200">Upload a document to analyze</h1>
+          </div>
+          <div className="flex space-x-5">           
+            <form onSubmit={handleSubmit}>
+              <input type="file" placeholder="Enter Your Mail" className="input input-bordered w-80 max-w-md" onChange={handleFileChange} required />
+              <button className="submit btn bg-yellow text-white rounded-lg border-none">Analyze</button>
+            </form>
+            {error && <div style={{ color: 'red' }}>{error}</div>}
+            {analysisResult && (
+              <div>
+                <h3>Analysis Result</h3>
+                <pre>{JSON.stringify(analysisResult, null, 2)}</pre>
+              </div>
+            )}
+          </div>
         </div>
-      )}
-    </div>
-  );
-};
-
-export default Upload;
+      </div>
+    );
+  };
+  
+  export default Upload;
