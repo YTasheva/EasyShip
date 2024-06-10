@@ -64,6 +64,9 @@
 
 ## Screenshot
 
+![Screenshot1](https://github.com/andrewyu22/EasyShip/blob/main/client/public/screenshot1.jpg)
+![Screenshot2](https://github.com/andrewyu22/EasyShip/blob/main/client/public/screenshot2.jpg)
+![Screenshot3](https://github.com/andrewyu22/EasyShip/blob/main/client/public/screenshot3.jpg)
 
 
 ## Links
