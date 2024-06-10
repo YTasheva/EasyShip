@@ -21,7 +21,7 @@ export default function Footer() {
                 <nav>
                     <h6 className="footer-title">About Us</h6>
                     <p className="text-yellow">--------</p>
-                    <p className="text-md text-gray-300 my-5">Easyship is the leading shipping platform accelerating borderless eCommerce. Businesses of all sizes use our software to deliver their goods to buyers across the world.</p>
+                    <p className="text-md text-gray-300 my-5">EasyShip is the leading shipping platform accelerating borderless eCommerce. Businesses of all sizes use our software to deliver their goods to buyers across the world.</p>
                     <h5 className="text-md text-gray-300 flex items-center"> <PhoneIcon className="h-4 w-4 mr-2"/>| (+1) 209 897 3212</h5>
                     <h5 className="text-md text-gray-300 flex items-center"><MapPinIcon className="h-4 w-4 mr-2"/>| 20 Levy Ave, California 600 </h5>
                 </nav>

@@ -27,7 +27,11 @@
 
 ## Overview
 
-- Welcome to the EasyShip Website! This repository contains the codebase and documentation for a comprehensive web application designed to manage shipping operations, track shipments, and enhance customer experience. This README provides an overview of the project, installation instructions, key features, and guidelines for contributing. 
+- Welcome to the EasyShip Website! The goal of the app is to upload a packing slip document using Azure AI, send the image to an Azure Function and analyze the data using Microsoft AI Document Intelligence Model.
+
+- The function will return a model to the app and the final user would modify, if needed, the data received. The last step is store the data and call the Pitney Bowes API to search for carrier, services, prices, etc., and respond it back to the users to select.
+
+- This repository contains the codebase and documentation for a comprehensive web application designed to manage shipping operations, track shipments, and enhance customer experience. This README provides an overview of the project, installation instructions, key features, and guidelines for contributing. 
 
 ## The Challenge
 
@@ -38,20 +42,10 @@
 - Technologies that are used:
   - [ ] React
   - [ ] Navigation with `React Router`, dynamic rendering, or another third-party router
-  - [ ] Azure AI
+  - [ ] Azure CLI
   - [ ] Pitney Bowes Shipping 360 API
   - [ ] Tailwind
-- The application **contains** the following information:
-  - [ ] Project Title
-  - [ ] Links to:
-    - [ ] GitHub Profile
-    - [ ] Email Address
-    - [ ] Phone Number - (optional)
-    - [ ] PowerPoint Slides
-      - [ ] Link to the deployed version
-      - [ ] Link to the GitHub repository
-      - [ ] GIF or screenshot of the deployed application
-
+  - [ ] Azure AI
 ### Key Features
 
   1. [ ] **User Registration and Authentication:**  Secure user registration, login, and account management.
@@ -70,6 +64,9 @@
 
 ## Screenshot
 
+![Screenshot1](https://github.com/andrewyu22/EasyShip/blob/main/client/public/screenshot1.jpg)
+![Screenshot2](https://github.com/andrewyu22/EasyShip/blob/main/client/public/screenshot2.jpg)
+![Screenshot3](https://github.com/andrewyu22/EasyShip/blob/main/client/public/screenshot3.jpg)
 
 
 ## Links
@@ -134,7 +131,7 @@ The production-ready build files will be in the `build/` directory after running
 
 ## Authors
 
-- GitHub - [Andrew YU](https://github.com/andrewyu22) [Yuliya Tasheva](https://github.com/YTasheva)
+- GitHub - [Andrew Yu](https://github.com/andrewyu22) | [Yuliya Tasheva](https://github.com/YTasheva)
 - For any questions, suggestions, or issues, please contact our team at
   
 > [EasyShip.com](#) &nbsp;&middot;&nbsp;
