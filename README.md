@@ -111,11 +111,11 @@ The production-ready build files will be in the `build/` directory after running
 
 ## API Documentation
 
-- API documentation is available to provide detailed information on endpoints, request/response formats, and usage examples. Refer to the [docs website] (https://docs.shipping360.pitneybowes.com/docs/) for comprehensive API documentation.
+- API documentation is available to provide detailed information on endpoints, request/response formats, and usage examples. Refer to the https://docs.shipping360.pitneybowes.com/docs/ for comprehensive API documentation.
 
 ## Presentation Slides
 
-- The presentation slides for this project are available at the following link: [EasyShip Presentation](https://docs.google.com/presentation/d/1woZTMol0gyt9CoVaGTZaJUQrIompAaDguUSXlBGqLR8/embed?rm=minimal&start=true&loop=true&delayms=3000")
+- The presentation slides for this project are available at the following link: [EasyShip Presentation](https://docs.google.com/presentation/d/1woZTMol0gyt9CoVaGTZaJUQrIompAaDguUSXlBGqLR8/edit?usp=sharing)
 
 ## Contributing
 
