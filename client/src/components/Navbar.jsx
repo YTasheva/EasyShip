@@ -38,8 +38,8 @@ export default function Navbar() {
         <details>
           <summary className='text-lg font-medium'>Pages</summary>
           <ul className="p-2">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
+            <li><a>Upload</a></li>
+            <li><a>Contact Us</a></li>
           </ul>
         </details>
       </li>
@@ -48,14 +48,14 @@ export default function Navbar() {
         <details>
           <summary className='text-lg font-medium'>Services</summary>
           <ul className="p-2">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
+            <li><a>EasyShip Collect</a></li>
+            <li><a>Global Fulfillment</a></li>
           </ul>
         </details>
       </li>
       <li>
         <details>
-          <summary className='text-lg font-medium'>Blog</summary>
+          <summary className='text-lg font-medium'>Contact Us</summary>
           <ul className="p-2">
             <li><a>Submenu 1</a></li>
             <li><a>Submenu 2</a></li>
