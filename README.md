@@ -20,6 +20,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [API Documentation](#api-documentation)
+- [Presentation Slides](#presentation-slides)
 - [Contributing](#contributing)
 - [Licence](#licence)
 - [Authors](#authors)
@@ -73,7 +74,7 @@
 
 ## Links
 
-- [Deployed Application](https://EasyShip.netlify.app/)
+- [Deployed Application](https://andrewyu22.github.io/EasyShip/)
 - [GitHub Repo](https://github.com/andrewyu22/EasyShip)
 
 ## Installation
@@ -112,6 +113,10 @@ The production-ready build files will be in the `build/` directory after running
 
 - API documentation is available to provide detailed information on endpoints, request/response formats, and usage examples. Refer to the [docs website] (https://docs.shipping360.pitneybowes.com/docs/) for comprehensive API documentation.
 
+## Presentation Slides
+
+- The presentation slides for this project are available at the following link: [EasyShip Presentation](https://docs.google.com/presentation/d/1woZTMol0gyt9CoVaGTZaJUQrIompAaDguUSXlBGqLR8/embed?rm=minimal&start=true&loop=true&delayms=3000")
+
 ## Contributing
 
 - We welcome contributions to improve this project. Please follow these steps:
@@ -129,7 +134,7 @@ The production-ready build files will be in the `build/` directory after running
 
 ## Authors
 
-- GitHub - [ ](https://github.com/)
+- GitHub - [Andrew YU](https://github.com/andrewyu22) [Yuliya Tasheva](https://github.com/YTasheva)
 - For any questions, suggestions, or issues, please contact our team at
   
 > [EasyShip.com](#) &nbsp;&middot;&nbsp;
