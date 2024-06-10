@@ -131,7 +131,7 @@ The production-ready build files will be in the `build/` directory after running
 
 ## Authors
 
-- GitHub - [Andrew YU](https://github.com/andrewyu22) [Yuliya Tasheva](https://github.com/YTasheva)
+- GitHub - [Andrew Yu](https://github.com/andrewyu22) | [Yuliya Tasheva](https://github.com/YTasheva)
 - For any questions, suggestions, or issues, please contact our team at
   
 > [EasyShip.com](#) &nbsp;&middot;&nbsp;
