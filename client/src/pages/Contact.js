@@ -25,7 +25,7 @@ const Contact = () => {
     <>
       <Hero
         className="w-10"
-        backgroundImage="https://raw.githubusercontent.com/andrewyu22/ShipEasy/main/client/public/contactus.jpeg"
+        backgroundImage="https://raw.githubusercontent.com/andrewyu22/EasyShip/main/client/public/contactus.jpeg"
       />
       <hr />
       <div className="text-center mt-3 h4 font-weight-bold">
@@ -71,7 +71,7 @@ const Contact = () => {
                 value={formData.email}
                 onChange={handleOnChange}
               />
-              <div id="emailHelp" className="form-text m-4">
+              <div id="emailHelp" className="form-text text-dark m-4">
                 We would truly like to hear what you think about the
                 content and website or share what is on your mind.
               </div>
@@ -98,13 +98,13 @@ const Contact = () => {
           </Row>
           <button
             type="submit"
-            className="btn btn-outline-danger mb-2"
+            className="btn bg-yellow btn-outline-danger mb-2"
           >
             <i className="bi bi-send m-1" aria-hidden="true"></i>
             Submit
           </button>
         </Container>
-        <Container className="text-center mt-5 mb-5">
+        <Container className="text-center text-body mt-5 mb-5 font-weight-bold">
           <h3>Thank you {formData.name}!</h3>
           <p>Your interest in our site is much appreciated!</p>
         </Container>

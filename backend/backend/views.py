@@ -28,8 +28,13 @@ def analyze_document_view(request):
                 for field_name, field_value in doc.fields.items():
                     extracted_data[field_name] = field_value.value
             token = getToken()
+<<<<<<< HEAD
             logger.debug(f"Extracted data: {extracted_data}")
             return JsonResponse(extracted_data)
+=======
+            print(extracted_data)
+
+>>>>>>> c89fc6495214362fcebe2d948531bc6dae5ce249
         except Exception as e:
             logger.error(f"Error analyzing document: {traceback.format_exc()}")
             return JsonResponse({'error': str(e)}, status=500)
