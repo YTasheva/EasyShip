@@ -3,6 +3,7 @@ import {PhoneIcon} from '@heroicons/react/24/solid'
 import {MapPinIcon} from '@heroicons/react/24/solid'
 import {ChevronRightIcon} from '@heroicons/react/24/solid'
 import Serviceimg from './Serviceimg'
+import { Link } from 'react-router-dom'
 
 export default function Footer() {
     return (
@@ -39,7 +40,7 @@ export default function Footer() {
                     <a className="link link-hover text-gray-300 flex items-center"><ChevronRightIcon className="h-4 w-4 mr-2 text-yellow"/>FAQS</a>
                     <a className="link link-hover text-gray-300 flex items-center"><ChevronRightIcon className="h-4 w-4 mr-2 text-yellow"/>Privacy Policy</a>
                     <a className="link link-hover text-gray-300 flex items-center"><ChevronRightIcon className="h-4 w-4 mr-2 text-yellow"/>Terms & Conditions</a>
-                    <a className="link link-hover text-gray-300 flex items-center"><ChevronRightIcon className="h-4 w-4 mr-2 text-yellow"/>Contact Us</a>
+                    <Link to="/contact" className="link link-hover text-gray-300 flex items-center"><ChevronRightIcon className="h-4 w-4 mr-2 text-yellow"/>Contact Us</Link>
                 </nav>
                 <nav>
                     <h6 className="footer-title">Customer Service</h6>
