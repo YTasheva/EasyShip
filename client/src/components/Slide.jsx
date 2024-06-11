@@ -23,7 +23,7 @@ export default function Slide() {
             </div>
           </div>
         </div>
-        <div class="flex [writing-mode:vertical-lr] justify-center rotate-180">
+        <div className="flex [writing-mode:vertical-lr] justify-center rotate-180">
           #EASYSHIP LOGISTIC
         </div>
       </div>
