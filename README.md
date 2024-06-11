@@ -20,7 +20,6 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [API Documentation](#api-documentation)
-- [Presentation Slides](#presentation-slides)
 - [Contributing](#contributing)
 - [Licence](#licence)
 - [Authors](#authors)
@@ -40,12 +39,16 @@
 ### Base Requirements
 
 - Technologies that are used:
-  - [ ] React
+
+  - [ ] React, React-Bootstrap
   - [ ] Navigation with `React Router`, dynamic rendering, or another third-party router
   - [ ] Azure CLI
   - [ ] Pitney Bowes Shipping 360 API
   - [ ] Tailwind
   - [ ] Azure AI
+  - [ ] Azure Function
+  - [ ] Microsoft AI Document Intelligence Model
+
 ### Key Features
 
   1. [ ] **User Registration and Authentication:**  Secure user registration, login, and account management.
@@ -73,6 +76,7 @@
 
 - [Deployed Application](https://andrewyu22.github.io/EasyShip/)
 - [GitHub Repo](https://github.com/andrewyu22/EasyShip)
+- [EasyShip Presentation Slides](https://docs.google.com/presentation/d/1woZTMol0gyt9CoVaGTZaJUQrIompAaDguUSXlBGqLR8/edit?usp=sharing)
 
 ## Installation
 
@@ -109,10 +113,6 @@ The production-ready build files will be in the `build/` directory after running
 ## API Documentation
 
 - API documentation is available to provide detailed information on endpoints, request/response formats, and usage examples. Refer to the https://docs.shipping360.pitneybowes.com/docs/ for comprehensive API documentation.
-
-## Presentation Slides
-
-- The presentation slides for this project are available at the following link: [EasyShip Presentation](https://docs.google.com/presentation/d/1woZTMol0gyt9CoVaGTZaJUQrIompAaDguUSXlBGqLR8/edit?usp=sharing)
 
 ## Contributing
 
