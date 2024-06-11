@@ -23,7 +23,7 @@ def analyze_document_view(request):
                     field_name, field_value = field
                     extracted_data[field_name] = field_value.value
             token = getToken()
-            print(getCarrier(token, "UPS"))
+            print(extracted_data)
 
         except Exception as e:
             print(f"Error analyzing document: {traceback.format_exc()}")
