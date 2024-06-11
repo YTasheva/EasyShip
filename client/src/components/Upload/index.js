@@ -38,28 +38,59 @@ const Upload = () => {
   };
 
   return (
-      <div className="App bg-[#5D6C83] mt-20 p-8">
-        <div className="relative flex justify-center items-center space-x-96 px-10 mb-10">
-          <div className="absolute top-0 left-10 mr-10">
-            <h1 className="text-3xl font-semibold text-left text-gray-100 mb-5">Analyze Document</h1>
-            <h1 className="text-sm font-semibold text-left text-gray-200">Upload a document to analyze</h1>
-          </div>
-          <div className="flex space-x-5">           
-            <form onSubmit={handleSubmit}>
-              <input type="file" placeholder="Enter Your Mail" className="input input-bordered w-80 max-w-md" onChange={handleFileChange} required />
-              <button className="submit btn bg-yellow text-white rounded-lg border-none">Analyze</button>
-            </form>
-            {error && <div style={{ color: 'red' }}>{error}</div>}
-            {analysisResult && (
-              <div>
-                <h3>Analysis Result</h3>
-                <pre>{JSON.stringify(analysisResult, null, 2)}</pre>
-              </div>
-            )}
-          </div>
+    <div className="flex flex-col items-center justify-center">
+      <label
+        htmlFor="dropzone-file"
+        className="flex h-32 w-64 cursor-pointer flex-col items-center justify-center rounded-lg border-2 border-dashed border-gray-300 bg-gray-50 hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-600"
+      >
+        <div className="flex flex-col items-center justify-center pb-6 pt-5">
+          <svg
+            className="mb-4 h-8 w-8 text-gray-500 dark:text-gray-400"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 20 16"
+          >
+            <path
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2"
+            />
+          </svg>
+          <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
+            <span className="font-semibold">Click to upload</span> or
+            drag and drop
+          </p>
+          <p className="text-xs text-gray-500 dark:text-gray-400">
+            SVG, PNG, JPG or GIF (MAX. 800x400px)
+          </p>
         </div>
-      </div>
-    );
-  };
-  
-  export default Upload;
+        <input
+          type="file"
+          id="dropzone-file"
+          className="hidden"
+          onChange={handleFileChange}
+        />
+      </label>
+      <form onSubmit={handleSubmit} className="mt-4">
+        <button
+          className="submit btn bg-yellow text-white rounded-lg border-none"
+          type="submit"
+        >
+          Analyze
+        </button>
+      </form>
+      {error && <div style={{ color: 'red' }}>{error}</div>}
+      {analysisResult && (
+        <div>
+          <h3>Analysis Result</h3>
+          <pre>{JSON.stringify(analysisResult, null, 2)}</pre>
+        </div>
+      )}
+    </div>
+  );
+};
+
+export default Upload;

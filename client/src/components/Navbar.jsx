@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Navbar() {
     return (
@@ -66,7 +67,7 @@ export default function Navbar() {
       </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn bg-yellow text-white rounded-none">GET A QUOTE</a>
+    <Link to="/upload" className="btn bg-yellow text-white rounded-none">GET A QUOTE</Link>
     <a className="btn bg-black mx-8 text-white rounded-none">SIGN IN</a>
   </div>
 </div>
