@@ -1,12 +1,12 @@
-import React, { useState } from "react";
-import Hero from "../components/Hero";
-import { Container, Row, Col } from "react-bootstrap";
+import React, { useState } from 'react';
+import Hero from '../components/Hero';
+import { Container, Row, Col } from 'react-bootstrap';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: "",
+    name: '',
+    email: '',
+    message: '',
   });
 
   const handleOnChange = (e) => {
@@ -18,7 +18,7 @@ const Contact = () => {
     console.log(`name is ${formData.name}`);
     console.log(`email is ${formData.email}`);
     console.log(`message is ${formData.message}`);
-    setFormData({ name: "", email: "", message: "" });
+    setFormData({ name: '', email: '', message: '' });
   };
 
   return (
@@ -72,15 +72,18 @@ const Contact = () => {
                 onChange={handleOnChange}
               />
               <div id="emailHelp" className="form-text m-4">
-                We would truly like to hear what you think about the content and
-                website or share what is on your mind.
+                We would truly like to hear what you think about the
+                content and website or share what is on your mind.
               </div>
             </Col>
           </Row>
           <Row className="mb-3">
             <Col size="12">
               <label htmlFor="Message" className="form-label">
-                <i className="bi bi-chat-quote-fill m-2" aria-hidden="true"></i>
+                <i
+                  className="bi bi-chat-quote-fill m-2"
+                  aria-hidden="true"
+                ></i>
                 Your Message
               </label>
               <textarea
@@ -93,7 +96,10 @@ const Contact = () => {
               ></textarea>
             </Col>
           </Row>
-          <button type="submit" className="btn btn-outline-danger mb-2">
+          <button
+            type="submit"
+            className="btn btn-outline-danger mb-2"
+          >
             <i className="bi bi-send m-1" aria-hidden="true"></i>
             Submit
           </button>
