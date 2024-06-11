@@ -6,6 +6,12 @@ import traceback
 import requests
 import re
 import json
+import logging
+
+# Ensure you import the necessary functions:
+# from your_module import analyze_document, getToken
+
+logger = logging.getLogger(__name__)
 
 @api_view(['POST'])
 def analyze_document_view(request):
@@ -16,19 +22,24 @@ def analyze_document_view(request):
         file_path = fs.path(filename)
         extracted_data = {}
         try:
-            print(f"Analyzing document: {file_path}")
+            logger.debug(f"Analyzing document: {file_path}")
             result = analyze_document(file_path)
-            for document in result.documents: 
-                for field in document.fields.items():
-                    field_name, field_value = field
+            for doc in result.documents: 
+                for field_name, field_value in doc.fields.items():
                     extracted_data[field_name] = field_value.value
             token = getToken()
+<<<<<<< HEAD
+            logger.debug(f"Extracted data: {extracted_data}")
+            return JsonResponse(extracted_data)
+=======
             print(extracted_data)
 
+>>>>>>> c89fc6495214362fcebe2d948531bc6dae5ce249
         except Exception as e:
-            print(f"Error analyzing document: {traceback.format_exc()}")
+            logger.error(f"Error analyzing document: {traceback.format_exc()}")
             return JsonResponse({'error': str(e)}, status=500)
 
+    logger.warning("Invalid request: Missing document or wrong method.")
     return JsonResponse({'error': 'Invalid request'}, status=400)
 
 def getToken():

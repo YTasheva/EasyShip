@@ -3,11 +3,14 @@ import axios from 'axios';
 
 const Upload = () => {
   const [selectedFile, setSelectedFile] = useState(null);
+  const [fileName, setFileName] = useState('');
   const [analysisResult, setAnalysisResult] = useState(null);
   const [error, setError] = useState(null);
 
   const handleFileChange = (event) => {
-    setSelectedFile(event.target.files[0]);
+    const file = event.target.files[0];
+    setSelectedFile(file);
+    setFileName(file ? file.name : '');
   };
 
   const handleSubmit = async (event) => {
@@ -74,6 +77,9 @@ const Upload = () => {
           onChange={handleFileChange}
         />
       </label>
+      {fileName && (
+        <p className="mt-2 text-red-500 font-bold">{fileName}</p>
+      )}
       <form onSubmit={handleSubmit} className="mt-4">
         <button
           className="submit btn bg-yellow text-white rounded-lg border-none"
