@@ -50,19 +50,9 @@ export default function Navbar() {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <details>
-              <summary className="text-lg font-medium">
-                <span className="text-yellow font-bold">|</span>Home
-              </summary>
-              <ul className="p-2">
-                <li>
-                  <a>Services</a>
-                </li>
-                <li>
-                  <a>News</a>
-                </li>
-              </ul>
-            </details>
+            <Link to="/" className="text-lg font-medium">
+              <span className="text-yellow font-bold">|</span>Home
+            </Link>
           </li>
           <li>
             <details>
