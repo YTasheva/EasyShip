@@ -110,6 +110,8 @@ After running `npm start`, the application will be available at `http://localhos
 - **Production Build:**
 The production-ready build files will be in the `build/` directory after running `npm run build`.
 
+- To use the AI feature navigate to the application and in the navbar menu, under 'Pages', click on 'Upload a document' in order to analize it.
+
 ## API Documentation
 
 - API documentation is available to provide detailed information on endpoints, request/response formats, and usage examples. Refer to the https://docs.shipping360.pitneybowes.com/docs/ for comprehensive API documentation.
