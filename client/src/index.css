@@ -1,18 +1,7 @@
 @media screen and (max-width: 768px) {
-  .container {  
-    display: flex; 
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center; 
-  }
 } 
 @media (min-width: 768px) { 
-.container {
-  display: flex; 
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center; 
-}
+
 }
 
 
