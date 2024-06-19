@@ -51,20 +51,10 @@
 
 ### Key Features
 
-  1. [ ] **User Registration and Authentication:**  Secure user registration, login, and account management.
-     
-  2. [ ] **Order Management:**  Place, track, and manage shipping orders with real-time updates.
-     
-  3. [ ] **Payment Processing:**  Secure payment gateway integration for processing payments.
-     
-  4. [ ] **Shipment Tracking:**  Real-time shipment tracking with status updates and notifications.
-     
-  5. [ ] **Admin Dashboard:** Comprehensive dashboard for administrators to manage orders, users, and deliveries.
-      
-  6. [ ] **Customer Support:**  In-app chat and support ticket system for customer inquiries and issues.
-      
-  7. [ ] **Analytics and Reporting:**  Detailed reports and analytics for business insights and decision-making.
-
+  1. [ ] **Microsoft AI Document Intelligence mmodel:**  Upload a document in order to extract the data and feed it to the shipping API.
+  2. [ ] **Azure Function:**  Secure user registration, login, and account management.
+  3. [ ] **Pitney Bowes API:**  Secure user registration, login, and account management.
+  
 ## Screenshot
 
 ![Screenshot1](https://github.com/andrewyu22/EasyShip/blob/main/client/public/screenshot1.jpg)
@@ -104,11 +94,29 @@
 
 ## Usage
 
+- To successfully make a call against Azure OpenAI, you need an endpoint and a key from the Azure portal. Alternatively, you can find the value in the `Azure OpenAI Studio > Playground > Code View`. An example endpoint is: https://docs-test-001.openai.azure.com/.
+
+- To make a call against Pitney Bowes API, you need a secure token to generate a Production Key and Sandbox Key. 
+
 - **Development Server:**
-After running `npm start`, the application will be available at `http://localhost:3000`.
+
+-After running `npm start`, the application will be available at `http://localhost:3000`.
 
 - **Production Build:**
+
 The production-ready build files will be in the `build/` directory after running `npm run build`.
+
+- **Deployment:**
+
+- To deploy the application, you can use a static site hosting service like GitHub Pages, Netlify, or Vercel.
+
+- **Testing:**
+
+- The project includes unit tests for components and integration tests for API calls. To run the tests, use the command `npm test`.
+
+- **Uploading a Document to use the AI feature:**
+
+-  On the website navigate to the application and in the navbar menu, under 'Pages', click on 'Upload a document' in order to analize it.
 
 ## API Documentation
 

@@ -45,9 +45,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.common.CommonMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -157,3 +160,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 AZURE_ENDPOINT = os.getenv('AZURE_ENDPOINT')
 AZURE_KEY = os.getenv('AZURE_KEY')
 AZURE_MODEL = os.getenv('AZURE_MODEL')
+
+CORS_ALLOW_ALL_ORIGINS = True
