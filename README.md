@@ -26,9 +26,9 @@
 
 ## Overview
 
-- Welcome to the EasyShip Website! The goal of the app is to upload a packing slip document using Azure AI, send the image to an Azure Function and analyze the data using Microsoft AI Document Intelligence Model.
+- Welcome to the EasyShip Website! The goal of the app is to upload a packing slip document using Azure AI, send the image to an Azure Function and analyze the data using the Microsoft AI Document Intelligence Model.
 
-- The function will return a model to the app and the final user would modify, if needed, the data received. The last step is store the data and call the Pitney Bowes API to search for carrier, services, prices, etc., and respond it back to the users to select.
+- The function will return a model to the app and the final user will modify, if needed, the data received. The last step is to store the data and call the Pitney Bowes API to search for carriers, services, prices, etc., and respond to the users to select.
 
 - This repository contains the codebase and documentation for a comprehensive web application designed to manage shipping operations, track shipments, and enhance customer experience. This README provides an overview of the project, installation instructions, key features, and guidelines for contributing. 
 
@@ -51,7 +51,7 @@
 
 ### Key Features
 
-  1. [ ] **Microsoft AI Document Intelligence mmodel:**  Upload a document in order to extract the data and feed it to the shipping API.
+  1. [ ] **Microsoft AI Document Intelligence model:**  Upload a document to extract the data and feed it to the shipping API.
   2. [ ] **Azure Function:**  Secure user registration, login, and account management.
   3. [ ] **Pitney Bowes API:**  Secure user registration, login, and account management.
   
@@ -94,7 +94,7 @@
 
 ## Usage
 
-- To successfully make a call against Azure OpenAI, you need an endpoint and a key from the Azure portal. Alternatively, you can find the value in the `Azure OpenAI Studio > Playground > Code View`. An example endpoint is: https://docs-test-001.openai.azure.com/.
+- To successfully make a call against Azure OpenAI, you need an endpoint and a key from the Azure portal. Alternatively, you can find the value in the `Azure OpenAI Studio > Playground > Code View`. An example endpoint is https://docs-test-001.openai.azure.com/.
 
 - To make a call against Pitney Bowes API, you need a secure token to generate a Production Key and Sandbox Key. 
 
@@ -116,11 +116,11 @@ The production-ready build files will be in the `build/` directory after running
 
 - **Uploading a Document to use the AI feature:**
 
--  On the website navigate to the application and in the navbar menu, under 'Pages', click on 'Upload a document' in order to analize it.
+-  On the website navigate to the application and in the navbar menu, under 'Pages', click on 'Upload a document' to analyse it.
 
 ## API Documentation
 
-- API documentation is available to provide detailed information on endpoints, request/response formats, and usage examples. Refer to the https://docs.shipping360.pitneybowes.com/docs/ for comprehensive API documentation.
+- API documentation is available to provide detailed information on endpoints, request/response formats, and usage examples. Refer to https://docs.shipping360.pitneybowes.com/docs/ for comprehensive API documentation.
 
 ## Contributing
 
