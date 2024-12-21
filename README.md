@@ -145,7 +145,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
   
 > [EasyShip.com](#) &nbsp;&middot;&nbsp;
 > Email [easyship@gmail.com](#) &nbsp;&middot;&nbsp;
-> Copyright &copy; 2024 All Rights Reserved. Site By Yuliya Tasheva&Andrew Yu&reg;
+> Copyright &copy; 2024 All Rights Reserved. Site By Yuliya Tasheva & Andrew Yu&reg;
 
 **Thank you for using and contributing to the EasyShip website! Your support helps us continually improve and deliver the best shipping management experience.**
 
