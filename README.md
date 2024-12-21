@@ -65,7 +65,7 @@
 ## Links
 
 - [Deployed Application](https://andrewyu22.github.io/EasyShip/)
-- [GitHub Repo](https://github.com/andrewyu22/EasyShip)
+- [GitHub Repo](https://github.com/YTasheva/EasyShip)
 - [EasyShip Presentation Slides](https://docs.google.com/presentation/d/1woZTMol0gyt9CoVaGTZaJUQrIompAaDguUSXlBGqLR8/edit?usp=sharing)
 
 ## Installation
@@ -136,6 +136,7 @@ The production-ready build files will be in the `build/` directory after running
 ## Licence
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Authors
 
@@ -144,7 +145,7 @@ The production-ready build files will be in the `build/` directory after running
   
 > [EasyShip.com](#) &nbsp;&middot;&nbsp;
 > Email [easyship@gmail.com](#) &nbsp;&middot;&nbsp;
-
+> Copyright &copy; 2024 All Rights Reserved. Site By Yuliya Tasheva&Andrew Yu&reg;
 **Thank you for using and contributing to the EasyShip website! Your support helps us continually improve and deliver the best shipping management experience.**
 
 
